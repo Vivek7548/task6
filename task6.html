@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+margin: 0;
+padding: 0;
+display: grid;
+grid-template-rows: auto 1fr auto;
+min-height: 100vh;
+border: 2px solid white;
+}
+
+nav {
+background-color: green;
+justify-content: center;
+align-items: center;
+border: 2px solid white;
+}
+h3{
+color:#fff;
+text-align:center;
+font-size:25px;
+
+
+
+}
+
+section {
+
+color: rgb(103, 103, 2);
+justify-content: center;
+align-items: center;
+background-color: rgb(99, 99, 45);
+}
+.section-flex{
+display: flex;
+width: 100%;
+
+}
+.first-section {
+background-color: yellow;
+width: 50%;
+height: 100%;
+}
+
+.second-section {
+background-color: rgba(150, 48, 20, 0.884);
+width: 50%;
+height: 100%;
+}
+
+footer {
+background-color: blue;
+padding: 10px;
+border: 2px solid white;
+}
+</style>
+</head>
+<body>
+<nav>
+<h3>navbar</h3>
+</nav>
+
+<section class="section">
+<h3>Section</h3>
+</section>
+
+<section class="section-flex">
+<div class="first-section">
+<h3>Section 1</h3>
+</div>
+<div class="second-section">
+<h3>Section 2</h3>
+</div>
+
+</section>
+
+<footer>
+<h3>Footer</h3>
+</footer>
+</body>
+</html>
